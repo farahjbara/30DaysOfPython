@@ -29,7 +29,7 @@ print(fruits)
 fruits.append("orange")         # Adds to end
 fruits.insert(1, "kiwi")        # Insert a list item at a specified index
 print(fruits)
-
+# -----------------------------------------------------------------------------------------------------------------
 tropical = ["mango", "pineapple", "papaya"] # To append elements from another list to the current list
 fruits.extend(tropical)
 print(fruits)
