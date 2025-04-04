@@ -52,7 +52,7 @@ word = "python123"
 
 print(word.isalpha())  # False -> Checks if all characters are letters (A-Z, a-z)
 print(word.isdigit())  # False -> Checks if all characters are digits (0-9)
-print("12345".isdigit())  # True
+print("12345".isdigit())  # True -> Checks if string provides is digits or not 
 print(word.isalnum())  # True -> Checks if all characters are letters or digits
 print("hello".islower())  # True -> Checks if all letters are lowercase
 print("HELLO".isupper())  # True -> Checks if all letters are uppercase
