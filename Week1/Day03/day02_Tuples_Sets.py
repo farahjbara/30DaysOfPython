@@ -61,3 +61,14 @@ print("Difference:", set1 - set2)   # {1, 2}
 nums = [1, 2, 2, 3, 4, 4, 5]
 unique_nums = list(set(nums))
 print(unique_nums)  # [1, 2, 3, 4, 5]
+#--------------------------------------------------------------
+#🎯 Example 1: Tuple with Mixed Data Types
+info = ("Farah", 25, True)
+print(info)
+print(f"Name: {info[0]}, Age: {info[1]}, Active: {info[2]}")
+
+
+#🎯 Example 2: Tuple inside a List
+people = [("Alice", 30), ("Bob", 28), ("Farah", 25)]
+for name, age in people:
+    print(f"{name} is {age} years old")
