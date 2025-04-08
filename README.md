@@ -20,7 +20,7 @@ A 30-day hands-on challenge to master Python for DevOps automation, scripting, c
 ## 📅 Weekly Plan Overview
 | Week | Focus Area                  | Key Skills Acquired                          | Tools & Technologies               |
 |------|-----------------------------|----------------------------------------------|------------------------------------|
-| 1    | **Python Fundamentals**     | Debugging, OOP, CLI Tools                   | `pdb`, `logging`, `pip`, `venv`   |
+| 1    | **Python Fundamentals**     | Concepts, Debugging, OOP, CLI Tools                   | `pdb`, `logging`, `pip`, `venv`   |
 | 2    | **Testing & DB Integration**| Unit Testing, SQL Queries, ORMs             | `pytest`, `PostgreSQL`, `SQLAlchemy` |
 | 3    | **Web & WSGI Fundamentals** | API Design, HTTP Servers, Middleware        | `Flask`, `Gunicorn`, `Jinja2`     |
 | 4    | **Flask & Deployment**      | Containerization, Auth Systems, CI/CD       | `Docker`, `JWT`, `GitHub Actions` |
