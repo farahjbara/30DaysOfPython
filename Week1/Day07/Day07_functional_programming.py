@@ -8,10 +8,7 @@ This script demonstrates various Python functions and concepts:
 - Lambda expressions
 - List comprehensions
 - Dictionary comprehensions
-
-
 """
-
 from functools import reduce 
 
 # =============================================
