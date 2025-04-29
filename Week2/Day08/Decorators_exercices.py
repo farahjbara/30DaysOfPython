@@ -15,15 +15,13 @@ def timing(func):
         return result  # Return the original function's result
     return wrapper
 
-# Example usage:
+
 @timing
 def example_function(n):
     total = 0
     for i in range(n):
         total += i
     return total
-
-# Test
 example_function(1_000_000)
 '''
 Exercises 2: Debugging Decorator
@@ -47,7 +45,7 @@ def debug(func):
         return result
     return wrapper
 
-# Example usage
+
 @debug
 def greet(name, greeting="Hello"):
     """A simple greeting function"""
@@ -74,10 +72,8 @@ def repeat(n):
         return wrapper
     return decorator
 
-# Example usage
+
 @repeat(3)
 def say_hi():
     print("Hi!")
-
-# Test
 say_hi()
